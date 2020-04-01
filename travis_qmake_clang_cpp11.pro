@@ -9,4 +9,4 @@ QMAKE_LINK = clang++
 QMAKE_CC = clang
 
 # C++11
-QMAKE_CXXFLAGS += -std=c++17
+QMAKE_CXXFLAGS += -std=c++11
