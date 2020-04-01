@@ -20,7 +20,7 @@ int main()
 	string perem, mass1[len][stlb], mass2[len];
 
 
-	ifstream fs("C:\\Users\\Oracle\\Desktop\\example.txt", ios::in | ios::binary); // окрываем файл для чтения
+	ifstream fs("\\example.txt", ios::in | ios::binary); // окрываем файл для чтения
 
 	if (!fs) return 1; //Если ошибка открытия файла, то завершаем программу
 
@@ -89,7 +89,7 @@ int main()
 		}
 	}**/
 
-	std::ofstream out("C:\\Users\\Oracle\\Desktop\\rightdoc.txt", std::ios::app); // открываем файл для записи и добавляем новые строки
+	std::ofstream out("\\rightdoc.txt", std::ios::app); // открываем файл для записи и добавляем новые строки
 	if (out.is_open())
 	{
 		/**for (int i = 0; i < 2; i++) //вывод строк из массива
