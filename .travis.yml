@@ -2,6 +2,8 @@ language: cpp
 dist: xenial
 compiler: gcc
 sudo: true
+before_install:
+- chmod +x build.sh
 
 install:
   - sudo apt-get install clang
