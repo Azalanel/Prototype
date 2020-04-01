@@ -10,3 +10,9 @@ install:
 
 script: 
   - ./build.sh
+  - sonar-scanner -X
+  
+addons:
+   sonarcloud:
+   organization: "Azalanel"
+   token "0b5cc4b48f6195e3eef1a6c24290800e5af2dd02"
