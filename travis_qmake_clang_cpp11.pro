@@ -1,4 +1,4 @@
-SOURCES += main.cpp
+SOURCES += ProgIngLab4.cpp
 
 # High warning level, warning is error
 QMAKE_CXXFLAGS += -Wall -Wextra -Weffc++ -Werror
